@@ -1,0 +1,20 @@
+class Pizza:
+    def __init__ (self):
+
+    def find_area(self):
+        diameter = eval(input("What was the diameter?, aka the size >>>"))
+        area = pi * ((diameter / 2) * (diameter / 2))
+        return area
+
+    def find_price(self, find_area()):
+        price = eval(input("Okay, so how much did you pay for your pizza? >>>"))
+        if price > 25:
+            print("Are you stupid?")
+        elif price < 10:
+            print("That's some cheap ass pizza.")
+        find_area()
+        price_inch = price / area
+        return price_inch
+
+print("Hello! Let's figure out what you're paying for pizza, per square inch.")
+Pizza.find_price
